@@ -25,5 +25,5 @@ variable "administrator_login_password" {
 variable "repo_url" {
   description = "URL for the Git Repo to be deployed."
   type        = string
-  default     = ""
+  default     = "https://github.com/Eglodji1618/simple_webapp_project/tree/main/web-app"
 }
